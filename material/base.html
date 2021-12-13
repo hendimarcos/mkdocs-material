@@ -47,6 +47,30 @@
         {% endif %}
       {% endif %}
     {% endblock %}
+    <script nomodule src="https://cdn.ampproject.org/bento.js"></script>
+    <script
+      async
+      type="module"
+      src="https://cdn.ampproject.org/bento.mjs"
+    ></script>
+    <script
+      async
+      nomodule
+      src="https://cdn.ampproject.org/v0/bento-fit-text-1.0.js"
+    ></script>
+    <script
+      async
+      type="module"
+      src="https://cdn.ampproject.org/v0/bento-fit-text-1.0.mjs"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.ampproject.org/v0/bento-fit-text-1.0.css"
+    />
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-1.0.js"></script>
     {% block libs %}{% endblock %}
     {% block fonts %}
       {% if config.theme.font != false %}
